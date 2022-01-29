@@ -1,12 +1,13 @@
-import java.util.Scanner;
 package firnasbasicproj;
+
+import java.util.Scanner;
 
 public class PrinterANumber {
 	public static void main(String[] args) {
 		
 		     // Creates a reader instance which takes 
              // input from standard input - keyboard 
-                  scanner reader = new Scanner(System.in); 
+                   Scanner reader = new Scanner(System.in); 
                    System.out.print("Enter a number: "); 
             
                    // nextInt() reads the next integer from the keyboard 
